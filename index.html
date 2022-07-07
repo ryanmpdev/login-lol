@@ -11,17 +11,15 @@
     <section class="login">
         <img src="imgs/image 2.png" alt="riot-games">
         <h1>Fazer Login</h1>
-    <form>
-        <div class="text">
-            <input type="text" id="text">
-            <label for="text">Nome de Usuário</label>
-        </div> 
-        
-        <div class="password">
-            <input type="password" id="senha">
-            <label for="senha">Senha</label>
-        </div>
-    </form>
+        <div class='label-float'>
+            <input required type='text' id='usuario' paceholder=''>
+            <label for='usuario'>usuário</label>
+          </div>
+            
+          <div class='label-float'>
+            <input required type='password' id='senha' paceholder='****'>
+            <label for='senha'>senha</label>
+        </div>  
         <nav>
         <figure class="face">
             <a href="#"><img src="imgs/facebook-logo-fill 1.png" alt="facebook"></a>
@@ -35,10 +33,10 @@
             <a href="#"><img src="imgs/apple-logo-fill 1.png" alt="apple"></a>
         </figure>
         </nav>
-        <form class="selection">
-            <input type="checkbox" id="manter">
-            <label for="manter">Manter Login</label>
-        </form>
+        <div class="checkbox">
+          <input type="checkbox" id="manter">
+          <label for="manter">Manter Login</label>
+        </div>    
         <button disabled><img src="imgs/arrow-right-thin 1.png" alt=""></button>
         <nav class="sessao">
             <p><a href="#">Não tem uma conta?</a></p>
